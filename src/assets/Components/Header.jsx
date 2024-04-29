@@ -93,11 +93,11 @@ const Header = () => {
                   </Center>
                   <br />
                   <Center>
-                    <p>Username</p>
+                    <p>Neha</p>
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem>Your Servers</MenuItem>
+                  <MenuItem>Connect</MenuItem>
                   <MenuItem>Account Settings</MenuItem>
                   <MenuItem>Logout</MenuItem>
                 </MenuList>
