@@ -52,7 +52,7 @@ const Header = () => {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"35px"} m={"20px"}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
             <Flex>
                 <h6 font ={'bold'}>NEHA</h6>
@@ -80,7 +80,7 @@ const Header = () => {
                   minW={0}>
                   <Avatar
                     size={'sm'}
-                    src={'https://avatars.dicebear.com/api/male/username.svg'}
+                    src={"/profilepic.jpg"}
                   />
                 </MenuButton>
                 <MenuList alignItems={'center'}>
@@ -88,7 +88,7 @@ const Header = () => {
                   <Center>
                     <Avatar
                       size={'2xl'}
-                      src={'https://avatars.dicebear.com/api/male/username.svg'}
+                      src={'/profilepic.jpg'}
                     />
                   </Center>
                   <br />
