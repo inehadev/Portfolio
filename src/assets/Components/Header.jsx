@@ -98,7 +98,6 @@ const Header = () => {
                   <br />
                   <MenuDivider />
                   <MenuItem>Connect</MenuItem>
-                  <MenuItem>Account Settings</MenuItem>
                   <MenuItem>Logout</MenuItem>
                 </MenuList>
               </Menu>

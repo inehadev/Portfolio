@@ -7,7 +7,7 @@ export default function Home (){
     return (
         <>
       <Flex justifyContent={"space-evenly"} gap={10}>
-        <Flex alignContent={'center'} justifyContent={'flex-start'} ml={40} mt={150}>
+        <Flex alignContent={'center'} justifyContent={'flex-start'} ml={40} mt={100}>
         <WrapItem>
         <Box boxSize='270px' >
       
@@ -15,7 +15,7 @@ export default function Home (){
             </Box>
         </WrapItem>
         </Flex>
-        <Flex alignContent={'center'} flexDirection={"column"}  justifyContent={'flex-end'} mr={40} mt={170}>
+        <Flex alignContent={'center'} flexDirection={"column"}  justifyContent={'flex-end'} mr={40} mt={120}>
         <Heading size={"3xl"}> Hii 👋 Am Neha ,</Heading>
         <Heading mt={5} size={"xl"} ml={2}>  aspiring Full Stack web development</Heading>
         <Heading mt={5} size={"sm"} ml={20} > "Your story, beautifully coded."</Heading>
