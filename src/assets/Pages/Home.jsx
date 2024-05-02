@@ -16,9 +16,9 @@ export default function Home (){
         </WrapItem>
         </Flex>
         <Flex alignContent={'center'} flexDirection={"column"}  justifyContent={'flex-end'} mr={40} mt={120}>
-        <Heading size={"3xl"}> Hii 👋 Am Neha ,</Heading>
-        <Heading mt={5} size={"xl"} ml={2}>  aspiring Full Stack web development</Heading>
-        <Heading mt={5} size={"sm"} ml={20} > "Your story, beautifully coded."</Heading>
+        <Heading size={"3xl"} fontFamily={"aerial"}> Hii 👋 Am Neha ,</Heading>
+        <Heading mt={5} size={"xl"} ml={2} fontFamily={"aerial"}>  aspiring Full Stack web development</Heading>
+        <Heading mt={5} size={"sm"} ml={20}  fontFamily={"aerial"}> "Your story, beautifully coded."</Heading>
         <Divider mt={10}/>
         <Flex gap={6} mt={50} ml={20}>
         <Link href="">< IoLogoInstagram size={"40"}/></Link>

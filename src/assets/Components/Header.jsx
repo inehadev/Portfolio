@@ -52,16 +52,16 @@ const Header = () => {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"35px"} m={"20px"}>
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
             <Flex>
-                <h6 font ={'bold'}>NEHA</h6>
+                <h6 font ={'bold'} fontFamily={"aerial"}>NEHA</h6>
             </Flex>
             <Flex alignItems={'center'} justifyContent={'space-between'} gap={7}>
-                <Box>Home</Box>
-                <Box>About</Box>
-                <Box>Projects</Box>
-                <Box>Connect</Box>
+                <Box fontFamily={"aerial"}>Home</Box>
+                <Box fontFamily={"aerial"}>About</Box>
+                <Box fontFamily={"aerial"}>Projects</Box>
+                <Box fontFamily={"aerial"}>Connect</Box>
             </Flex>
           <Box></Box>
 
@@ -93,12 +93,12 @@ const Header = () => {
                   </Center>
                   <br />
                   <Center>
-                    <p>Neha</p>
+                    <p> fontFamily={"aerial"}Neha</p>
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem>Connect</MenuItem>
-                  <MenuItem>Logout</MenuItem>
+                  <MenuItem fontFamily={"aerial"}>Connect</MenuItem>
+                  <MenuItem fontFamily={"aerial"}>Logout</MenuItem>
                 </MenuList>
               </Menu>
             </Stack>
