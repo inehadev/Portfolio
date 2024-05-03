@@ -7,7 +7,7 @@ export default function AboutPage () {
       <Flex display={"flex"} justifyContent={"space-evenly"} >
       
         <Box  >
-          <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
 
         </Box>
         <Box>
@@ -38,7 +38,27 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
   
         </Box>
       </Flex>
+
+      <Divider mt={"20"} w={"100%"} mr={"70px"}/>
+      <Flex display={"flex"} justifyContent={"space-evenly"} >
+      <Box  >
+          <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
+
         </Box>
+        <Box>
+          <Heading  mt={"24"}  fontFamily={"aerial"}>CODEVISTA 3.0</Heading>
+          <Text mt={"6"} fontFamily={"aerial"} fontSize={"large"}>
+
+          On 21st March 2024,  participated in the college event CodeVista 3.0, <br/>
+         themed "Programmer to Startup." It was an exceptional platform where programmers  <br/>
+          showcased their skills and ideas. I'm thrilled to share that our team secured the first position,  <br/>
+           earning a cash prize. This experience ignited my passion for entrepreneurship and innovation.. </Text>
+  
+        </Box>
+      </Flex>
+      
+        </Box>
+
     )
 
 }

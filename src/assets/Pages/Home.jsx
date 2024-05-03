@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "../Components/Header";
-import { WrapItem , Avatar, Flex , Box , Heading  , Link, Divider , Image} from '@chakra-ui/react'
+import AboutPage from "./AboutPage"
+import { WrapItem , Avatar, Flex , Box , Heading  , Link, Divider , Image , useColorModeValue}from '@chakra-ui/react'
 import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io';
 export default function Home (){
 
     return (
         <>
+          <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"500px"}>
       <Flex justifyContent={"space-evenly"} gap={10}>
         <Flex alignContent={'center'} justifyContent={'flex-start'} ml={40} mt={100}>
         <WrapItem>
@@ -29,6 +31,7 @@ export default function Home (){
         </Flex>
         </Flex>
         </Flex>
+        </Box>
        
         </>
 

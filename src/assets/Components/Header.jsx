@@ -59,9 +59,9 @@ const Header = () => {
                 <h6 font ={'bold'} fontFamily={"aerial"}>NEHA</h6>
             </Flex>
             <Flex alignItems={'center'} justifyContent={'space-between'} gap={7}>
-                <Box fontFamily={"aerial"}>Home</Box>
+                <Box fontFamily={"aerial"}><a href="/">Home</a></Box>
              <Box fontFamily={"aerial"}>  <a href="/about">About</a> </Box>
-                <Box fontFamily={"aerial"}>Projects</Box>
+                <Box fontFamily={"aerial"}><a href="/project">Project</a></Box>
                 <Box fontFamily={"aerial"}>Connect</Box>
             </Flex>
           <Box></Box>
