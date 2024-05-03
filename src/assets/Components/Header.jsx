@@ -14,6 +14,7 @@ import {
   Stack,
   useColorMode,
   Center,
+  Link
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
@@ -59,7 +60,7 @@ const Header = () => {
             </Flex>
             <Flex alignItems={'center'} justifyContent={'space-between'} gap={7}>
                 <Box fontFamily={"aerial"}>Home</Box>
-                <Box fontFamily={"aerial"}>About</Box>
+             <Box fontFamily={"aerial"}>  <a href="/about">About</a> </Box>
                 <Box fontFamily={"aerial"}>Projects</Box>
                 <Box fontFamily={"aerial"}>Connect</Box>
             </Flex>
