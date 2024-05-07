@@ -5,15 +5,15 @@ import { SiFirebase , SiCss3 ,SiChakraui ,SiMongodb } from 'react-icons/si';
 
 export default function Project (){
     return (
-        <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1200px"}>
+        <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1250px"}>
 
               {/* --------Thread------------*/}
-
-
+              <Flex >   <Heading ml={"10%"}   fontFamily={"aerial"}  >Project</Heading></Flex>
+           
            <Flex flexDirection={"row"} justifyContent={"space-around"} >
                 <Box >
-                <Image borderRadius={"20px"} size={"80px"}  mt={20} src="/threadd.png"></Image>
-                <Heading ml={10}  fontSize={"large"} fontFamily={"aerial"} size={"large"}>Thread</Heading>
+                <Image borderRadius={"20px"} size={"80px"} ml={20} mt={20} src="/threadd.png"></Image>
+                <Heading ml={32}  fontSize={"large"} fontFamily={"aerial"} size={"large"}>Thread</Heading>
                 </Box>
                 <Box mt={24} mr={24}>
                     <Heading fontFamily={"aerial"}>Thread</Heading>
@@ -74,7 +74,7 @@ export default function Project (){
                 <Heading ml={10}  fontSize={"large"} fontFamily={"aerial"} size={"large"}>Vercel</Heading>
                 </Box>
                 <Box mt={24} mr={24}>
-                    <Heading fontFamily={"aerial"}>Vercel</Heading>
+                    <Heading ml={24} fontFamily={"aerial"}>Vercel</Heading>
                     <Text mt={5} fontFamily={"aerial"}> 
 
                     In my second year, I created my first frontend project, <br/> a website Vercel. It utilized HTML and CSS, showcasing foundational web development <br/> skills..</Text>

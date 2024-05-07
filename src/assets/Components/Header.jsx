@@ -62,7 +62,7 @@ const Header = () => {
                 <Box fontFamily={"aerial"}><a href="/">Home</a></Box>
              <Box fontFamily={"aerial"}>  <a href="/about">About</a> </Box>
                 <Box fontFamily={"aerial"}><a href="/project">Project</a></Box>
-                <Box fontFamily={"aerial"}>Connect</Box>
+                <Box fontFamily={"aerial"}><a href="/skill">Skill</a></Box>
             </Flex>
           <Box></Box>
 
@@ -94,7 +94,7 @@ const Header = () => {
                   </Center>
                   <br />
                   <Center>
-                    <p> fontFamily={"aerial"}Neha</p>
+                    <p> Neha</p>
                   </Center>
                   <br />
                   <MenuDivider />

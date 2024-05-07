@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "../Components/Header";
 import AboutPage from "./AboutPage"
-import { WrapItem , Avatar, Flex , Box , Heading  , Link, Divider , Image , useColorModeValue}from '@chakra-ui/react'
+import { WrapItem , Avatar, Flex , Box , Heading  ,Text, Link, Divider , Image , useColorModeValue}from '@chakra-ui/react'
 import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io';
+import Project from "./project";
+import SkillPage from "./SkillPage";
 export default function Home (){
 
     return (
@@ -32,6 +34,9 @@ export default function Home (){
         </Flex>
         </Flex>
         </Box>
+        <AboutPage/>
+        <Project/>
+        <SkillPage/>
        
         </>
 
