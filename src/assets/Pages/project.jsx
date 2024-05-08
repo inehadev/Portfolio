@@ -5,15 +5,15 @@ import { SiFirebase , SiCss3 ,SiChakraui ,SiMongodb } from 'react-icons/si';
 
 export default function Project (){
     return (
-        <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1250px"}>
-
+        <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1250px"} >
+              <Box mt={6} > <Heading ml={"50%"}  fontFamily={"aerial"}  >Project</Heading></Box>
               {/* --------Thread------------*/}
-              <Flex >   <Heading ml={"10%"}   fontFamily={"aerial"}  >Project</Heading></Flex>
-           
+             
            <Flex flexDirection={"row"} justifyContent={"space-around"} >
+            
                 <Box >
                 <Image borderRadius={"20px"} size={"80px"} ml={20} mt={20} src="/threadd.png"></Image>
-                <Heading ml={32}  fontSize={"large"} fontFamily={"aerial"} size={"large"}>Thread</Heading>
+                
                 </Box>
                 <Box mt={24} mr={24}>
                     <Heading fontFamily={"aerial"}>Thread</Heading>
@@ -43,7 +43,7 @@ export default function Project (){
             <Flex flexDirection={"row"} justifyContent={"space-around"} >
                 <Box >
                 <Image borderRadius={"20px"}  mt={20} src="/amazon-.png"></Image>
-                <Heading ml={10}  fontSize={"large"} fontFamily={"aerial"} size={"large"}>Amazon Clone</Heading>
+                
                 </Box>
                 <Box mt={24} mr={24}>
                     <Heading fontFamily={"aerial"}>Amazon Clone</Heading>
@@ -71,7 +71,7 @@ export default function Project (){
         <Flex flexDirection={"row"} justifyContent={"space-around"} >
                 <Box >
                 <Image  borderRadius={"20px"} mt={20} src="/vercel.png"></Image>
-                <Heading ml={10}  fontSize={"large"} fontFamily={"aerial"} size={"large"}>Vercel</Heading>
+                
                 </Box>
                 <Box mt={24} mr={24}>
                     <Heading ml={24} fontFamily={"aerial"}>Vercel</Heading>
@@ -90,6 +90,6 @@ export default function Project (){
            <Divider mt={10}/>
 
 
-            </Box>
+            </Flex>
     )
 }

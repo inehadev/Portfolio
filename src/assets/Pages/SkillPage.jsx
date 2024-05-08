@@ -5,7 +5,7 @@ import { CheckCircleIcon } from "@chakra-ui/icons";
 export default function SkillPage (){
     return (
         <Flex justifyContent={"center"} px={4} mt={3} flexDirection={"column"}bg={useColorModeValue('gray.100', 'gray.900')} borderRadius={"15px"} h={"500px"} m={"20px"} alignItems={"flex-start"} >
-          <Heading ml={"10%"} fontFamily={"aerial"} >Skills</Heading>
+          <Heading ml={"40%"} fontFamily={"aerial"} >Skills</Heading>
          
             <Flex ml={"170px"} flexDirection={"row"} alignItems={"flex-start"} mt={10} gap={"150px"}>
                 <Box  h={"310px"} w={"250px"} bg={useColorModeValue('gray.100', 'gray.900')}>
