@@ -98,8 +98,8 @@ const Header = () => {
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem fontFamily={"aerial"}>Connect</MenuItem>
-                  <MenuItem fontFamily={"aerial"}>Logout</MenuItem>
+                  <MenuItem fontFamily={"aerial"}><a href="mailto: 7087330257n@gmail.com">Connect</a></MenuItem>
+                 
                 </MenuList>
               </Menu>
             </Stack>

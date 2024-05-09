@@ -5,6 +5,7 @@ import { WrapItem , Avatar, Flex , Box , Heading  ,Text, Link, Divider , Image ,
 import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io';
 import Project from "./project";
 import SkillPage from "./SkillPage";
+import Footer from "../Components/Footer";
 export default function Home (){
 
     return (
@@ -37,6 +38,7 @@ export default function Home (){
         <AboutPage/>
         <Project/>
         <SkillPage/>
+        <Footer/>
        
         </>
 
