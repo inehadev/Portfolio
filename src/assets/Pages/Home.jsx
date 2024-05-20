@@ -11,12 +11,12 @@ export default function Home (){
     return (
         <>
           <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"500px"}>
-      <Flex justifyContent={"space-evenly"} gap={10}>
-        <Flex alignContent={'center'} justifyContent={'flex-start'} ml={40} mt={100}>
+      <Flex justifyContent={"space-evenly"} gap={10} flexDirection={{base:"column" , md:"row"}}>
+        <Flex alignContent={'center'} justifyContent={'flex-start'} ml={{base: 3 , md:40}}  mt={{ base: 6, md: 100 }}>
         <WrapItem>
-        <Box boxSize='270px' >
+        <Box boxSize={{base:'540' , md:'270'}} >
       
-          <Image src='/profilepic.jpg' alt='neha-img'   borderRadius='full' />
+          <Image mt={10} src='/profilepic.jpg' alt='neha-img'   borderRadius='full' />
             </Box>
         </WrapItem>
         </Flex>

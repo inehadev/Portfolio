@@ -4,10 +4,10 @@ import { Flex , Box , Image, Heading , useColorModeValue , Text, Divider } from 
 export default function AboutPage () {
     return (
       <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1300px"}>
-       <Box mt={5}> <Heading  ml={"40%"}  fontFamily={"aerial"}>About Me</Heading></Box>
-      <Flex display={"flex"} justifyContent={"space-evenly"} >
+       <Box mt={{base:'700px' , md:4}}> <Heading  ml={"40%"}  fontFamily={"aerial"}>About Me</Heading></Box>
+      <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
       
-        <Box  >
+        <Box boxSize={{base:'500px', md:'300px'}} >
         
           <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
 

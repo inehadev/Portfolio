@@ -59,10 +59,10 @@ const Header = () => {
                 <h6 font ={'bold'} fontFamily={"aerial"}>NEHA</h6>
             </Flex>
             <Flex alignItems={'center'} justifyContent={'space-between'} gap={7}>
-                <Box fontFamily={"aerial"}><a href="/">Home</a></Box>
-             <Box fontFamily={"aerial"}>  <a href="/about">About</a> </Box>
-                <Box fontFamily={"aerial"}><a href="/project">Project</a></Box>
-                <Box fontFamily={"aerial"}><a href="/skill">Skill</a></Box>
+                <Box fontFamily={"aerial"}><Link href="/">Home</Link></Box>
+             <Box fontFamily={"aerial"}>  <Link href="/about">About</Link> </Box>
+                <Box fontFamily={"aerial"}><Link href="/project">Project</Link></Box>
+                <Box fontFamily={"aerial"}><Link href="/skill">Skill</Link></Box>
             </Flex>
           <Box></Box>
 
@@ -98,7 +98,7 @@ const Header = () => {
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem fontFamily={"aerial"}><a href="mailto: 7087330257n@gmail.com">Connect</a></MenuItem>
+                  <MenuItem fontFamily={"aerial"}><a href="https://www.linkedin.com/in/neha5055/">Connect</a></MenuItem>
                  
                 </MenuList>
               </Menu>
