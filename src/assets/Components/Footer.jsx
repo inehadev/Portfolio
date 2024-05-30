@@ -9,7 +9,7 @@ import { EmailIcon } from '@chakra-ui/icons';
         <Flex  bg={useColorModeValue('gray.100', 'gray.900')}  justifyContent={"center"} px={4} h={"70px"}  m={"20px"}   borderRadius={"15px"}  >
           
             <Divider width="60%" mt={14}/>
-            <Avatar className="h-10 w-10 rounded-full" mt={7} name='Ryan Florence' src='/image.jpeg'><Divider/></Avatar>
+            <Avatar  mt={7} name='Ryan Florence' src='/image.jpeg'><Divider/></Avatar>
             <Divider width="60%" mt={14}/>
            
             </Flex>

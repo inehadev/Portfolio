@@ -11,7 +11,7 @@ export default function Project (){
              
            <Flex flexDirection={"row"} justifyContent={"space-around"} >
             
-                <Box >
+           <Box boxSize={{base:'500px', md:'300px'}} >
                 <Image borderRadius={"20px"} size={"80px"} ml={20} mt={20} src="/threadd.png"></Image>
                 
                 </Box>

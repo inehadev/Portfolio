@@ -10,17 +10,17 @@ export default function Home (){
 
     return (
         <>
-          <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"500px"}>
-      <Flex justifyContent={"space-evenly"} gap={10} flexDirection={{base:"column" , md:"row"}}>
+          <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{base:"800px" , md : "500px"}}>
+      <Flex justifyContent={"space-evenly"} gap={{base:2, md:10}} flexDirection={{base:"column" , md:"row"}}>
         <Flex alignContent={'center'} justifyContent={'flex-start'} ml={{base: 3 , md:40}}  mt={{ base: 6, md: 100 }}>
         <WrapItem>
-        <Box boxSize={{base:'540' , md:'270'}} >
+        <Box boxSize={{base:'340' , md:'270'}} justifyContent={"center"} alignItems={"center"} >
       
-          <Image mt={10} src='/profilepic.jpg' alt='neha-img'   borderRadius='full' />
+          <Image mt={10} ml={{base : "25%" , md : 0}} justifyContent={"center"} height={{base:'200px' , md:'250px'}} width={{base:'auto', md:'auto'}} src='/profilepic.jpg' alt='neha-img'   borderRadius='full' />
             </Box>
         </WrapItem>
         </Flex>
-        <Flex alignContent={'center'} flexDirection={"column"}  justifyContent={'flex-end'} mr={40} mt={120}>
+        <Flex alignContent={'center'} flexDirection={"column"}  justifyContent={'flex-end'} ml={{base:5 , md:0}} mr={{base:0 , md: 40}} mb={{base:120 , md:0}} mt={{base:0 , md:120}}>
         <Heading size={"3xl"} fontFamily={"aerial"}> Hii 👋 Am Neha ,</Heading>
         <Heading mt={5} size={"xl"} ml={2} fontFamily={"aerial"}>  aspiring Full Stack web development</Heading>
         <Heading mt={5} size={"sm"} ml={20}  fontFamily={"aerial"}> "Your story, beautifully coded."</Heading>

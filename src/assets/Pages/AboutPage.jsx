@@ -3,18 +3,18 @@ import { Flex , Box , Image, Heading , useColorModeValue , Text, Divider } from 
 
 export default function AboutPage () {
     return (
-      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1300px"}>
-       <Box mt={{base:'700px' , md:4}}> <Heading  ml={"40%"}  fontFamily={"aerial"}>About Me</Heading></Box>
+      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"2500px" , md : "1300px"}}>
+       <Box mt={{base: 2 , md:4}}> <Heading  ml={"40%"}  mt={{base:3 ,md:2}} fontFamily={"aerial"}>About Me</Heading></Box>
       <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
       
-        <Box boxSize={{base:'500px', md:'300px'}} >
+        <Box boxSize={{base:'430px', md:'300px'}} >
         
-          <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"} ml={{base:"30%" , md:0}} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
 
         </Box>
         <Box>
           {/* <Heading  mt={"24"}  fontFamily={"aerial"}>About Me</Heading> */}
-          <Text mt={"24"} fontFamily={"aerial"} fontSize={"large"}>
+          <Text mt={{base:2 ,  md:24}} fontFamily={"aerial"} ml={{base:"10%" , md:0}} fontSize={"large"} >
 Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer Science and Engineering. <br/>
  I have a keen interest in full-stack development and <br/>
  strive for excellence in every project I undertake. <br/>
@@ -24,14 +24,15 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
         </Box>
       </Flex>
       <Divider mt={"20"} w={"100%"} mr={"70px"}/>
-      <Flex display={"flex"} justifyContent={"space-evenly"} >
-      <Box  >
-          <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
+      
+      <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
+      <Box boxSize={{base:'430px', md:'300px'}} >
+          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"30%" , md:0}} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
 
         </Box>
         <Box>
-          <Heading  mt={"24"}  fontFamily={"aerial"}>BFCET HACK 1.0</Heading>
-          <Text mt={"6"} fontFamily={"aerial"} fontSize={"large"}>
+          <Heading  mt={{base:3 , md:24}} ml={{base:"10%" , md:0}}  fontFamily={"aerial"}>BFCET HACK 1.0</Heading>
+          <Text  mt={{base:2 ,  md:10}} fontFamily={"aerial"} fontSize={"large"} ml={{base:"10%" , md:0}} >
 
           Embark on my journey! BFCET Hack 1.0 was my inaugural hackathon <br/>
            experience with team HackHer. Over 36 intense hours, we delved into innovation, <br/>
@@ -42,14 +43,14 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
       </Flex>
 
       <Divider mt={"20"} w={"100%"} mr={"70px"}/>
-      <Flex display={"flex"} justifyContent={"space-evenly"} >
-      <Box  >
-          <Image mt={"20"} w={"auto"} h={"250px"} borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
+      <Flex display={"flex"} justifyContent={"space-evenly"}   flexDirection={{base:"column" , md:"row"}}  >
+      <Box boxSize={{base:'430px', md:'350px'}} >
+          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"25%" , md:0}}  borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
 
         </Box>
         <Box>
-          <Heading  mt={"24"}  fontFamily={"aerial"}>CODEVISTA 3.0</Heading>
-          <Text mt={"6"} fontFamily={"aerial"} fontSize={"large"}>
+          <Heading  mt={{base:3 , md:24}} ml={{base:"10%" , md:0}}  fontFamily={"aerial"}>CODEVISTA 3.0</Heading>
+          <Text mt={{base:2 ,  md:10}} fontFamily={"aerial"} fontSize={"large"} ml={{base:"10%" , md:0}}>
 
           On 21st March 2024,  participated in the college event CodeVista 3.0, <br/>
          themed "Programmer to Startup." It was an exceptional platform where programmers  <br/>
