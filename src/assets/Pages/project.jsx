@@ -5,14 +5,14 @@ import { SiFirebase , SiCss3 ,SiChakraui ,SiMongodb } from 'react-icons/si';
 
 export default function Project (){
     return (
-        <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={"1250px"} >
-              <Box mt={6} > <Heading ml={"50%"}  fontFamily={"aerial"}  >Project</Heading></Box>
+        <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"}  h={{base:"2500px" , md : "1250px"}} >
+              <Box  mt={{base: 2 , md:4}} justifyContent={"center"} > <Heading  ml={{base:"40%" , md:"50%"}} fontFamily={"aerial"}   mt={{base:3 ,md:2}} >Project</Heading></Box>
               {/* --------Thread------------*/}
              
-           <Flex flexDirection={"row"} justifyContent={"space-around"} >
+           <Flex flexDirection={{base:"column" , md:"row"}}  justifyContent={"space-around"}  >
             
-           <Box boxSize={{base:'500px', md:'300px'}} >
-                <Image borderRadius={"20px"} size={"80px"} ml={20} mt={20} src="/threadd.png"></Image>
+           <Box boxSize={{base:'300px', md:'300px'}} >
+                <Image borderRadius={"20px"}  ml={{base:"40%" , md:20}} size={"80px"} mt={20} src="/threadd.png"></Image>
                 
                 </Box>
                 <Box mt={24} mr={24}>
@@ -40,9 +40,9 @@ export default function Project (){
 
  
     {/* --------AMACON CLONE------------*/}
-            <Flex flexDirection={"row"} justifyContent={"space-around"} >
+            <Flex flexDirection={{base:"column" , md:"row"}}  justifyContent={"space-around"} >
                 <Box >
-                <Image borderRadius={"20px"}  mt={20} src="/amazon-.png"></Image>
+                <Image borderRadius={"20px"} ml={{base:"30%" , md:20}}  mt={20} src="/amazon-.png"></Image>
                 
                 </Box>
                 <Box mt={24} mr={24}>
@@ -68,9 +68,9 @@ export default function Project (){
                 {/* --------Vercel------------*/}
 
         
-        <Flex flexDirection={"row"} justifyContent={"space-around"} >
+        <Flex flexDirection={{base:"column" , md:"row"}}  justifyContent={"space-around"} >
                 <Box >
-                <Image  borderRadius={"20px"} mt={20} src="/vercel.png"></Image>
+                <Image  borderRadius={"20px"} ml={{base:"30%" , md:20}} mt={20} src="/vercel.png"></Image>
                 
                 </Box>
                 <Box mt={24} mr={24}>
