@@ -9,7 +9,7 @@ export default function AboutPage () {
       
         <Box boxSize={{base:'430px', md:'300px'}} >
         
-          <Image mt={"20"} w={"auto"} h={"250px"} ml={{base:"30%" , md:0}} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"} ml={{base:"10%" , md:0}} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
 
         </Box>
         <Box>
@@ -27,7 +27,7 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
       
       <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
       <Box boxSize={{base:'430px', md:'300px'}} >
-          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"30%" , md:0}} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"10%" , md:0}} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
 
         </Box>
         <Box>
@@ -45,7 +45,7 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
       <Divider mt={"20"} w={"100%"} mr={"70px"}/>
       <Flex display={"flex"} justifyContent={"space-evenly"}   flexDirection={{base:"column" , md:"row"}}  >
       <Box boxSize={{base:'430px', md:'350px'}} >
-          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"25%" , md:0}}  borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"10%" , md:0}}  borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
 
         </Box>
         <Box>

@@ -16,7 +16,7 @@ export default function Home (){
         <WrapItem>
         <Box boxSize={{base:'340' , md:'270'}} justifyContent={"center"} alignItems={"center"} >
       
-          <Image mt={10} ml={{base : "22%" , md : 0}} justifyContent={"center"} height={{base:'200px' , md:'250px'}} width={{base:'auto', md:'auto'}} src='/profilepic.jpg' alt='neha-img'   borderRadius='full' />
+          <Image mt={10} ml={{base : "18%" , md : 0}} justifyContent={"center"} height={{base:'200px' , md:'250px'}} width={{base:'auto', md:'auto'}} src='/profilepic.jpg' alt='neha-img'   borderRadius='full' />
             </Box>
         </WrapItem>
         </Flex>

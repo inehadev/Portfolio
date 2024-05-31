@@ -14,8 +14,8 @@ import { EmailIcon } from '@chakra-ui/icons';
            
             </Flex>
             
-          <Heading ml={"48%"} fontFamily={"aerial"} size={"large"}>NEHA</Heading>
-          <Text fontSize={"large"} ml={"42%"} mt={2} fontFamily={"aerial"} >🔹"Keep calm and code on."🔹</Text>
+          <Heading ml={{base:"35%" , md:"45%"}} fontFamily={"aerial"} size={"large"}>NEHA</Heading>
+          <Text fontSize={"large"} ml={{base:"30%",md:"42%"}} mt={2} fontFamily={"aerial"} >🔹"Keep calm and code on."🔹</Text>
 
             
    <Button mt={3} borderRadius={"24"} bg={useColorModeValue('gray.100', 'gray.900')} ml={"45%"} leftIcon={<EmailIcon />}  variant='solid'><a href="mailto: 7087330257n@gmail.com">Get in touch</a></Button>
