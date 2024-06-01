@@ -25,7 +25,7 @@ export default function Project (){
                           showcased seamless integration of frontend and backend technologies. It demonstrated my proficiency in <br/>
                             building dynamic web applications with modern tech stacks and comprehensive user interaction capabilities.</Text>
                      <Flex mt={5} gap={3}>
-                       <Text fontFamily={"aerial"} fontSize={"large"} > Tech Stak  | </Text> 
+                       <Text fontFamily={"aerial"} fontSize={"large"} ml={{base:"22%" , md:0}}> Tech Stak  | </Text> 
                           <FaReact size={32} />
                           <FaNodeJs size={32}/>
                           <SiMongodb size={32}/>
@@ -53,7 +53,7 @@ export default function Project (){
                      and backend integration. This project showcases my ability to create user-friendly <br/>
                      web applications with modern technologies.</Text>
                      <Flex mt={5} gap={3}>
-                       <Text fontFamily={"aerial"} fontSize={"large"} > Tech Stak  | </Text> 
+                       <Text fontFamily={"aerial"} fontSize={"large"} ml={{base:"22%" , md:0}} > Tech Stak  | </Text> 
                           <FaReact size={32} />
                           <SiFirebase size={32} />
                           <FaDatabase size={32} /> 
@@ -79,7 +79,7 @@ export default function Project (){
 
                     In my second year, I created my first frontend project, <br/> a website Vercel. It utilized HTML and CSS, showcasing foundational web development <br/> skills..</Text>
                      <Flex mt={5} gap={3}>
-                       <Text fontFamily={"aerial"} fontSize={"large"} > Tech Stak  | </Text> 
+                       <Text fontFamily={"aerial"} fontSize={"large"} ml={{base:"22%" , md:0}} > Tech Stak  | </Text> 
                           <FaHtml5 size={32}/>
                           <SiCss3 size={32} /> 
                         

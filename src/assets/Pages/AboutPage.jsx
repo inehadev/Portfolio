@@ -3,7 +3,7 @@ import { Flex , Box , Image, Heading , useColorModeValue , Text, Divider } from 
 
 export default function AboutPage () {
     return (
-      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"2800px" , md : "1300px"}}>
+      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"2710px" , md : "1300px"}}>
        <Box mt={{base: 2 , md:4}}> <Heading  ml={{base:"15%", md:"45%"}}  mt={{base:2 ,md:2}} fontFamily={"aerial"}>About Me</Heading></Box>
       <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
       
