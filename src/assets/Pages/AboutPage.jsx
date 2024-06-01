@@ -3,13 +3,13 @@ import { Flex , Box , Image, Heading , useColorModeValue , Text, Divider } from 
 
 export default function AboutPage () {
     return (
-      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"2500px" , md : "1300px"}}>
-       <Box mt={{base: 2 , md:4}}> <Heading  ml={"40%"}  mt={{base:3 ,md:2}} fontFamily={"aerial"}>About Me</Heading></Box>
+      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"2800px" , md : "1300px"}}>
+       <Box mt={{base: 2 , md:4}}> <Heading  ml={{base:"15%", md:"45%"}}  mt={{base:2 ,md:2}} fontFamily={"aerial"}>About Me</Heading></Box>
       <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
       
         <Box boxSize={{base:'430px', md:'300px'}} >
         
-          <Image mt={"20"} w={"auto"} h={"250px"} ml={{base:"10%" , md:0}} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"} ml={{base:"8%" , md:0}} borderRadius={"10px"} src="/dress-img.png" alt ="neha-img" />
 
         </Box>
         <Box>
@@ -45,7 +45,7 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
       <Divider mt={"20"} w={"100%"} mr={"70px"}/>
       <Flex display={"flex"} justifyContent={"space-evenly"}   flexDirection={{base:"column" , md:"row"}}  >
       <Box boxSize={{base:'430px', md:'350px'}} >
-          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"10%" , md:0}}  borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"}  ml={{base:"2%" , md:0}}  borderRadius={"10px"} src="/codevistaimg.jfif" alt ="neha-img" />
 
         </Box>
         <Box>
