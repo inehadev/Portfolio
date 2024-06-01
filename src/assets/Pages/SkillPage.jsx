@@ -4,10 +4,10 @@ import { CheckCircleIcon } from "@chakra-ui/icons";
 
 export default function SkillPage (){
     return (
-        <Flex justifyContent={"center"} px={4} mt={3} flexDirection={"column"}bg={useColorModeValue('gray.100', 'gray.900')} borderRadius={"15px"} h={{base:"1020px",md:"500px"}} m={"20px"} alignItems={"flex-start"} >
+        <Flex justifyContent={"center"} px={4} mt={3} flexDirection={"column"}bg={useColorModeValue('gray.100', 'gray.900')} borderRadius={"15px"} h={"500px"} m={"20px"} alignItems={"flex-start"} >
           <Heading ml={"40%"} fontFamily={"aerial"} >Skills</Heading>
          
-            <Flex ml={{base:"70px",md:"170px"}} flexDirection={"row"} alignItems={"flex-start"} mt={10} gap={{base:"60px",md:"150px"}}>
+            <Flex ml={{base:"20px",md:"170px"}} flexDirection={"row"} alignItems={"flex-start"} mt={10} gap={{base:"10px",md:"150px"}}>
                 <Box  h={"310px"} w={"250px"} bg={useColorModeValue('gray.100', 'gray.900')}>
                     <Heading  fontFamily={"aerial"} ml={{base:"5%", md:"20%"}} mt={5}>Frontend</Heading>
                     <Flex  gap={24} mt={9} ml={10} >
