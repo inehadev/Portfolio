@@ -27,7 +27,7 @@ Hi there 👋 I'm Neha, and I'm a prefinal year student  <br/>studying Computer 
       
       <Flex display={"flex"} justifyContent={"space-evenly"} flexDirection={{base:"column" , md:"row"}}  >
       <Box boxSize={{base:'430px', md:'300px'}} >
-          <Image mt={"20"} w={"auto"} h={"250px"}   ml={{base:"33%" , md:"50%"}} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
+          <Image mt={"20"} w={"auto"} h={"250px"}   ml={{base:"33%" , md:5}} borderRadius={"10px"} src="/nhlap.jpg" alt ="neha-img" />
 
         </Box>
         <Box>

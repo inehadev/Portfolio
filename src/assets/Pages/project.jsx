@@ -12,7 +12,7 @@ export default function Project (){
            <Flex flexDirection={{base:"column" , md:"row"}}  justifyContent={"space-around"}  >
             
            <Box boxSize={{base:'300px', md:'300px'}} >
-                <Image borderRadius={"20px"}  ml={{base:"19%" , md:20}} size={"80px"} mt={24} src="/threadd.png"></Image>
+                <Image borderRadius={"20px"}  ml={{base:"19%" , md:20}} size={"80px"} mt={32} src="/threadd.png"></Image>
                 
                 </Box>
                 <Box mt={24} mr={24}>
@@ -42,7 +42,7 @@ export default function Project (){
     {/* --------AMACON CLONE------------*/}
             <Flex flexDirection={{base:"column" , md:"row"}}  justifyContent={"space-around"} >
                 <Box >
-                <Image borderRadius={"20px"} ml={{base:"19%" , md:20}}  mt={24} src="/amazon-.png"></Image>
+                <Image borderRadius={"20px"} ml={{base:"19%" , md:20}}  mt={32} src="/amazon-.png"></Image>
                 
                 </Box>
                 <Box mt={24} mr={24}>

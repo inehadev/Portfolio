@@ -1,4 +1,5 @@
 import React from "react";
+import { delay, motion } from "framer-motion"
 import Header from "../Components/Header";
 import AboutPage from "./AboutPage"
 import { WrapItem , Avatar, Flex , Box , Heading  ,Text, Link, Divider , Image , useColorModeValue}from '@chakra-ui/react'
@@ -21,9 +22,27 @@ export default function Home (){
         </WrapItem>
         </Flex>
         <Flex alignContent={'center'} flexDirection={"column"}  justifyContent={'flex-end'} ml={{base:5 , md:0}} mr={{base:0 , md: 40}} mb={{base:120 , md:0}} mt={{base:0 , md:120}}>
-        <Heading size={"3xl"} fontFamily={"aerial"}> Hii 👋 Am Neha </Heading>
-        <Heading mt={5} size={"xl"} ml={{base:1, md:2}} fontFamily={"aerial"}>  aspiring Full Stack web development</Heading>
-        <Heading mt={5} size={"sm"} ml={{base:1 , md:2}}  fontFamily={"aerial"}> "Your story, beautifully coded."</Heading>
+        <motion.div
+      initial={{ x: 200 }}
+      animate={{ x: 0 }}
+      transition={{ duration: "2" , delay: "1" }}
+    >
+      <Heading size="3xl" fontFamily="Arial"> {/* Corrected 'aerial' to 'Arial' */}
+        Hii 👋 Am Neha
+      </Heading>
+      </motion.div>
+      <motion.div
+      initial={{ x: -70 }}
+      animate={{ x: 0 }}
+      transition={{ duration: "2" , delay: "1" }}
+    >
+        <Heading mt={5} size={"xl"} ml={{base:1, md:2}} fontFamily={"aerial"}>  aspiring Full Stack web development</Heading>   </motion.div>
+        <motion.div
+      initial={{ x: 200 }}
+      animate={{ x: 0 }}
+      transition={{ duration: "2" , delay: "1" }}
+    >
+        <Heading mt={5} size={"sm"} ml={{base:1 , md:2}}  fontFamily={"aerial"}> "Your story, beautifully coded."</Heading> </motion.div>
         <Divider mt={10}/>
         <Flex gap={6} mt={50} ml={{base:10, md:20}}>
         <Link href="">< IoLogoInstagram size={"40"}/></Link>
