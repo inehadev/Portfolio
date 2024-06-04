@@ -5,7 +5,7 @@ import { SiFirebase , SiCss3 ,SiChakraui ,SiMongodb } from 'react-icons/si';
 
 export default function Project (){
     return (
-        <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"}  h={{base:"2910px" , md : "1250px"}} >
+        <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"}  h={{base:"30100px" , md : "1250px"}} >
               <Box  mt={{base: 2 , md:4}} justifyContent={"center"} > <Heading  ml={{base:"33%" , md:"50%"}} fontFamily={"aerial"}   mt={{base:3 ,md:2}} >Project</Heading></Box>
               {/* --------Thread------------*/}
              
