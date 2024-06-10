@@ -56,13 +56,13 @@ const Header = () => {
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} mt={3} borderRadius={"15px"} m={"20px"}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
             <Flex>
-                <h6 font ={'bold'} fontFamily={"aerial"}>NEHA</h6>
+                <h6 font ={'bold'} fontFamily={"poppins"}>NEHA</h6>
             </Flex>
             <Flex alignItems={'center'} justifyContent={'space-between'} gap={7}>
-                <Box fontFamily={"aerial"}><Link href="/">Home</Link></Box>
-             <Box fontFamily={"aerial"}>  <Link href="/about">About</Link> </Box>
-                <Box fontFamily={"aerial"}><Link href="/project">Project</Link></Box>
-                <Box fontFamily={"aerial"}><Link href="/skill">Skill</Link></Box>
+                <Box fontFamily={"poppins"}><Link href="/">Home</Link></Box>
+             <Box fontFamily={"poppins"}>  <Link href="/about">About</Link> </Box>
+                <Box fontFamily={"apoppins"}><Link href="/project">Project</Link></Box>
+                <Box fontFamily={"poppins"}><Link href="/skill">Skill</Link></Box>
             </Flex>
           <Box></Box>
 
@@ -94,11 +94,11 @@ const Header = () => {
                   </Center>
                   <br />
                   <Center>
-                    <p> Neha</p>
+                    <p fontFamily={"poppins"}> Neha</p>
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem fontFamily={"aerial"}><a href="https://www.linkedin.com/in/neha5055/">Connect</a></MenuItem>
+                  <MenuItem fontFamily={"poppins"}><a href="https://www.linkedin.com/in/neha5055/">Connect</a></MenuItem>
                  
                 </MenuList>
               </Menu>

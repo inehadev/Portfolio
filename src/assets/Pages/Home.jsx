@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import AboutPage from "./AboutPage"
 import { WrapItem , Avatar, Flex , Box , Heading  ,Text, Link, Divider , Image , useColorModeValue}from '@chakra-ui/react'
 import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io';
+import { SiGeeksforgeeks } from "react-icons/si";
 import Project from "./project";
 import SkillPage from "./SkillPage";
 import Footer from "../Components/Footer";
@@ -27,7 +28,7 @@ export default function Home (){
       animate={{ x: 0 }}
       transition={{ duration: "2" , delay: "1" }}
     >
-      <Heading size="3xl" fontFamily="Arial"> {/* Corrected 'aerial' to 'Arial' */}
+      <Heading size="3xl" fontFamily={"poppins"}> 
         Hii 👋 Am Neha
       </Heading>
       </motion.div>
@@ -36,18 +37,18 @@ export default function Home (){
       animate={{ x: 0 }}
       transition={{ duration: "2" , delay: "1" }}
     >
-        <Heading mt={5} size={"xl"} ml={{base:1, md:2}} fontFamily={"aerial"}>  aspiring Full Stack web development</Heading>   </motion.div>
+        <Heading mt={5} size={"lg"} ml={{base:1, md:2}} fontFamily={"poppins"}>  aspiring Full Stack web development</Heading>   </motion.div>
         <motion.div
       initial={{ x: 200 }}
       animate={{ x: 0 }}
       transition={{ duration: "2" , delay: "1" }}
     >
-        <Heading mt={5} size={"sm"} ml={{base:1 , md:2}}  fontFamily={"aerial"}> "Your story, beautifully coded."</Heading> </motion.div>
+        <Heading mt={5} size={"sm"} ml={{base:1 , md:2}}  fontFamily={"poppins"}> "Your story, beautifully coded."</Heading> </motion.div>
         <Divider mt={10}/>
         <Flex gap={6} mt={50} ml={{base:10, md:20}}>
-        <Link href="">< IoLogoInstagram size={"40"}/></Link>
         <Link href="https://github.com/inehadev/">< IoLogoGithub size={"40"}/></Link>
           <Link href="https://www.linkedin.com/in/neha5055/"><IoLogoLinkedin  size={"40"}/></Link>
+          <Link href="https://www.geeksforgeeks.org/user/_neha_/"> <SiGeeksforgeeks size={"44"} /></Link>
          
         
         </Flex>
