@@ -20,7 +20,7 @@ export default function SkillPage (){
              
          </List></Flex>
                 </Box>
-                <Divider orientation={{base:"horizontal" , md:"vertical"}} bg={useColorModeValue('gray.100', 'gray.900')}/>
+                <Divider orientation={['horizontal', 'vertical']} bg={useColorModeValue('gray.100', 'gray.900')}/>
                
           <Flex>
           
