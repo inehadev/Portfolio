@@ -5,7 +5,7 @@ import { SiFirebase, SiCss3, SiChakraui, SiMongodb, SiExpress  , SiNextdotjs , S
 
 export default function Project() {
   return (
-    <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{ base: "3600px", md: "2070px" }} >
+    <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{ base: "3600px", md: "2000px" }} >
       <Box mt={{ base: 2, md: 4 }} justifyContent={"center"} > <Heading ml={{ base: "33%", md: "42%" }} fontFamily={"aerial"} mt={{ base: 3, md: 2 }} >Project</Heading></Box>
 
       {/*-------------------------------------------------------Anonymous message----------------------------------------------------------*/}
