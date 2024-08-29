@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, useColorModeValue, Image, Text, Heading, Divider, Link } from "@chakra-ui/react";
 import { FaReact, FaDatabase, FaNodeJs } from 'react-icons/fa';
-import { SiFirebase, SiCss3, SiChakraui, SiMongodb, SiExpress  , SiNextdotjs , SiTypescript } from 'react-icons/si';
+import { SiFirebase, SiChakraui, SiMongodb, SiExpress  , SiNextdotjs , SiTypescript } from 'react-icons/si';
 
 export default function Project() {
   return (
@@ -97,7 +97,7 @@ export default function Project() {
             <br /> like/unlike functionality, user   follow/unfollow, and profile updates.
             <br /> Utilizing Tailwind CSS, React, Chakra UI, Node.js, Express.js, and <br /> MongoDB, the project
             showcased seamless integration <br />of frontend and backend technologies.  It demonstrated<br /> my proficiency  in
-            building dynamic web applications with<br /> modern tech stacks and comprehensive user interaction<br /> capabilities.</Text>
+            building dynamic web application with<br /> modern tech stacks and comprehensive user interaction<br /> capabilities.</Text>
           <Flex mt={5} gap={3}>
             <Text fontFamily={"poppins"} fontSize={"large"} ml={{ base: "22%", md: 0 }}> Tech Stak  | </Text>
             <FaReact size={32} />
@@ -130,7 +130,7 @@ export default function Project() {
               and backend integration. This project showcases <br />  my ability to create user-friendly
               web   <br /> applications with modern technologies.</Text>
             <Flex mt={5} gap={3}>
-              <Text fontFamily={"poppins"} fontSize={"large"} ml={{ base: "22%", md: 0 }} > Tech Stak  | </Text>
+              <Text fontFamily={"poppins"} fontSize={"large"} ml={{ base: "22%", md: 0 }} > Tech Stack  | </Text>
               <FaReact size={32} />
               <SiFirebase size={32} />
               <FaDatabase size={32} />
