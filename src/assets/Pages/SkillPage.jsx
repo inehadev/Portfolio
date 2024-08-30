@@ -17,6 +17,8 @@ export default function SkillPage (){
               <ListItem>  <CheckCircleIcon />  Tailwind Css</ListItem>
               <ListItem>  <CheckCircleIcon />  React</ListItem>
               <ListItem>  <CheckCircleIcon />  Chakra Ui</ListItem>
+              <ListItem>  <CheckCircleIcon />  Next js</ListItem>
+              <ListItem>  <CheckCircleIcon />  Shadcn</ListItem>
              
          </List></Flex>
                 </Box>
@@ -33,6 +35,7 @@ export default function SkillPage (){
               <ListItem>  <CheckCircleIcon />  MongoDb</ListItem>
               <ListItem>  <CheckCircleIcon />  Firebase</ListItem>
               <ListItem>  <CheckCircleIcon />  FireStore</ListItem>
+              <ListItem>  <CheckCircleIcon />  TypeScript</ListItem>
               </List></Flex>
                 </Box>
                 
