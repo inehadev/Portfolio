@@ -4,7 +4,7 @@ import { CheckCircleIcon } from "@chakra-ui/icons";
 
 export default function SkillPage (){
     return (
-        <Flex justifyContent={"center"} px={4} mt={3} flexDirection={"column"}bg={useColorModeValue('gray.100', 'gray.900')} borderRadius={"15px"} h={{base:"1010px" , md:"500px"}} m={"20px"} alignItems={"flex-start"} >
+        <Flex justifyContent={"center"} px={4} mt={3} flexDirection={"column"}bg={useColorModeValue('gray.100', 'gray.900')} borderRadius={"15px"} h={{base:"1070px" , md:"590px"}} m={"20px"} alignItems={"flex-start"} >
           <Heading ml={"40%"} fontFamily={"poppins"} >Skills</Heading>
          
             <Flex ml={{base:0,md:"170px"}} flexDirection={{base:"column", md:"row"}} alignItems={"flex-start"} mt={10} gap={{base:1 ,md:"150px"}}>
@@ -22,7 +22,7 @@ export default function SkillPage (){
              
          </List></Flex>
                 </Box>
-                <Divider orientation={['horizontal', 'vertical']} bg={useColorModeValue('gray.100', 'gray.900')}/>
+                <Divider mt={10}  orientation={ 'vertical'} bg={useColorModeValue('gray.100', 'gray.900')}/>
                
           <Flex>
           
@@ -36,6 +36,7 @@ export default function SkillPage (){
               <ListItem>  <CheckCircleIcon />  Firebase</ListItem>
               <ListItem>  <CheckCircleIcon />  FireStore</ListItem>
               <ListItem>  <CheckCircleIcon />  TypeScript</ListItem>
+              <ListItem>  <CheckCircleIcon />   NextAuth</ListItem>
               </List></Flex>
                 </Box>
                 
