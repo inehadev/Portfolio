@@ -4,7 +4,7 @@ import { Flex , Box , Image, Heading , useColorModeValue , Text, Divider } from 
 
 export default function AboutPage () {
     return (
-      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"2810px" , md : "1700px"}}>
+      <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={{base:1 , md: 3}} borderRadius={"15px"} m={"20px"}  h={{base:"3500px" , md : "1700px"}}>
          
        <Box mt={{base: 2 , md:4}}> <Heading  ml={{base:"19%", md:"45%"}}  mt={{base:3 ,md:2}} fontFamily={"poppins"}>About Me</Heading></Box>
 

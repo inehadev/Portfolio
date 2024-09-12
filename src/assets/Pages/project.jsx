@@ -5,7 +5,7 @@ import { SiFirebase, SiChakraui, SiMongodb, SiExpress, SiNextdotjs, SiTypescript
 
 export default function Project() {
   return (
-    <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{ base: "4000px", md: "2400px" }} >
+    <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{ base: "4500px", md: "2400px" }} >
       <Box mt={{ base: 2, md: 4 }} justifyContent={"center"} > <Heading ml={{ base: "33%", md: "42%" }} fontFamily={"aerial"} mt={{ base: 3, md: 2 }} >Project</Heading></Box>
 
       {/*-------------------------------------------------------Anonymous message----------------------------------------------------------*/}
@@ -13,11 +13,11 @@ export default function Project() {
       <Flex flexDirection={{ base: "column", md: "row" }} justifyContent={{ base: "justify-between", md: "space-evenly" }} gap={10}  >
         <Link href="https://anonymous-feedback-b48l.vercel.app/">
           <Box>
-            <Image borderRadius={"20px"} h={200} w={320} mt={32} src="/Section 1.png"></Image>
+            <Image borderRadius={"20px"} h={200} w={320} justifyContent={{base:"center"}}  mt={32} src="/Section 1.png"></Image>
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"} >Anonymous Messgae</Heading>
+          <Heading fontFamily={"poppins"} justifyContent={{base: "justify-center" }} >Anonymous Messgae</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
 
 
@@ -47,11 +47,11 @@ export default function Project() {
       <Flex flexDirection={{ base: "column", md: "row" }} justifyContent={{ base: "justify-between", md: "space-evenly" }} gap={10}  >
         <Link href="https://placement-edge.vercel.app/">
           <Box>
-            <Image borderRadius={"20px"} h={200} w={320} mt={32} src="/placementedge.png"></Image>
+            <Image borderRadius={"20px"} h={200} w={320} mt={32} justifyContent={{base:"center"}}  src="/placementedge.png"></Image>
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"} >PlacementEdge</Heading>
+          <Heading fontFamily={"poppins"} justifyContent={{base: "justify-center" }} >PlacementEdge</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
 
 
@@ -88,11 +88,11 @@ export default function Project() {
       <Flex flexDirection={{ base: "column", md: "row" }} justifyContent={{ base: "justify-between", md: "space-evenly" }} gap={10}  >
         <Link href="https://shebizconnect.vercel.app/">
           <Box>
-            <Image borderRadius={"20px"} h={200} w={320} mt={32} src="/shebizconnect.png"></Image>
+            <Image borderRadius={"20px"} h={200} w={320} mt={32} justifyContent={{base:"center"}}  src="/shebizconnect.png"></Image>
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"} >SheBizConnect</Heading>
+          <Heading fontFamily={"poppins"} justifyContent={{base: "justify-center" }} >SheBizConnect</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
 
             I developed SheBizConnect, a platform empowering <br /> women to offer their  services. Key features include<br /> profile
@@ -122,13 +122,13 @@ export default function Project() {
       <Flex flexDirection={{ base: "column", md: "row" }} justifyContent={{ base: "justify-between", md: "space-evenly" }} gap={10}  >
         <Link className="decoration-0" href="https://github.com/inehadev/Thread-client">
           <Box boxSize={{ base: '300px', md: '300px' }} >
-            <Image borderRadius={"20px"} h={220} w={250} size={"80px"} mt={32} src="/threadd.png"></Image>
+            <Image borderRadius={"20px"} h={220} w={250} size={"80px"}justifyContent={{base:"center"}}   mt={32} src="/threadd.png"></Image>
 
           </Box></Link>
 
         <Box mt={20} ml={4} >
           <Link className="decoration-0" href="https://github.com/inehadev/Thread-Backend">
-            <Heading fontFamily={"poppins"}  >Thread</Heading></Link>
+            <Heading fontFamily={"poppins"}  justifyContent={{base: "justify-center" }} >Thread</Heading></Link>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
             In my third year project, I developed a thread  <br />social media  platform
             featuring robust user authentication<br />  (register, login, logout), post management (create, delete),
@@ -156,7 +156,7 @@ export default function Project() {
       <Flex flexDirection={{ base: "column", md: "row" }} justify={{ base: "justify-between", md: "space-evenly" }} gap={10} >
         <Link href="https://github.com/inehadev/amazon-clone">
           <Box >
-            <Image borderRadius={"20px"} h={200} w={300} mt={32} src="/amazon-.png"></Image>
+            <Image borderRadius={"20px"} h={200} w={300} justifyContent={{base:"center"}}  mt={32} src="/amazon-.png"></Image>
 
           </Box>
         </Link>
