@@ -5,8 +5,8 @@ import { SiFirebase, SiChakraui, SiMongodb, SiExpress, SiNextdotjs, SiTypescript
 
 export default function Project() {
   return (
-    <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{ base: "4500px", md: "2400px" }} >
-      <Box mt={{ base: 2, md: 4 }} justifyContent={"center"} > <Heading ml={{ base: "33%", md: "42%" }} fontFamily={"aerial"} mt={{ base: 3, md: 2 }} >Project</Heading></Box>
+    <Flex bg={useColorModeValue('gray.100', 'gray.900')} flexDirection={"column"} px={4} mt={3} borderRadius={"15px"} m={"20px"} h={{ base: "4800px", md: "2400px" }} >
+      <Box mt={{ base: 2, md: 4 }} justifyContent={"center"} > <Heading ml={{base:"19%", md:"45%"}}  fontFamily={"aerial"} mt={{ base: 3, md: 2 }} >Project</Heading></Box>
 
       {/*-------------------------------------------------------Anonymous message----------------------------------------------------------*/}
 
@@ -17,7 +17,7 @@ export default function Project() {
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"} justifyContent={{base: "justify-center" }} >Anonymous Messgae</Heading>
+          <Heading fontFamily={"poppins"}   >Anonymous Messgae</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
 
 
@@ -51,7 +51,7 @@ export default function Project() {
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"} justifyContent={{base: "justify-center" }} >PlacementEdge</Heading>
+          <Heading fontFamily={"poppins"}  >PlacementEdge</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
 
 
@@ -92,7 +92,7 @@ export default function Project() {
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"} justifyContent={{base: "justify-center" }} >SheBizConnect</Heading>
+          <Heading fontFamily={"poppins"}  >SheBizConnect</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
 
             I developed SheBizConnect, a platform empowering <br /> women to offer their  services. Key features include<br /> profile
@@ -128,7 +128,7 @@ export default function Project() {
 
         <Box mt={20} ml={4} >
           <Link className="decoration-0" href="https://github.com/inehadev/Thread-Backend">
-            <Heading fontFamily={"poppins"}  justifyContent={{base: "justify-center" }} >Thread</Heading></Link>
+            <Heading fontFamily={"poppins"}   >Thread</Heading></Link>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}>
             In my third year project, I developed a thread  <br />social media  platform
             featuring robust user authentication<br />  (register, login, logout), post management (create, delete),
@@ -161,7 +161,7 @@ export default function Project() {
           </Box>
         </Link>
         <Box mt={24} >
-          <Heading fontFamily={"poppins"}  >Amazon Clone</Heading>
+          <Heading fontFamily={"poppins"}   >Amazon Clone</Heading>
           <Text mt={5} fontFamily={"poppins"} ml={{ base: "22%", md: 0 }}> I created an Amazon clone in my second  year.
             It  <br />  features user authentication   (login, register, logout), <br />  cart functionality (add,  remove items), and a smooth <br />  checkout process.
             Built with React.js and Firebase, it <br />  demonstrates my skills in frontend development <br />
